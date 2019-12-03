@@ -19,4 +19,28 @@ Comentarios
 
 ```
 Aplicativo movil ACADICA
+
+Codigo fuente AndroidStudio
 ```
+## Metodo descompresion particiones.
+
+```
+
+Seleccionar todo
+
+MoodleMobile.part1
+MoodleMobile.part2
+MoodleMobile.part3
+MoodleMobile.part4
+MoodleMobile.part5
+MoodleMobile.part6
+MoodleMobile.part7
+MoodleMobile.part8
+MoodleMobile.part9
+MoodleMobile.part10
+MoodleMobile.part11
+
+Y extraer 
+```
+
+# Se debe generar una carpeta MoodleMobile con todo el contenido 
