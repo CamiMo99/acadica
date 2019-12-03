@@ -1,0 +1,77 @@
+body {
+    background-image: url(./img/FondoInicio.png);
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background: cover;
+    background-size: 1500px 1000px;
+    background-repeat: no-repeat;
+}
+
+
+/*Contenedor Cerrar*/
+.contenedorCerrar{
+    position: absolute;
+    width: 382px;
+    height: 390px;
+    left: 535px;
+    top: 170px;    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 14px;
+}
+
+/*Hola usuario*/
+h1{
+    position: absolute;
+    left: 45px;
+    top: 95px; 
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1DB9A1;    
+}
+
+/*Finaliza sesion*/
+h2{
+    position: absolute;
+    left: 130px;
+    top: 180px;   
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;    
+    color: #1DB9A1;
+}
+
+/*button cerrarS*/
+button{
+    position: absolute;
+    width: 164px;
+    height: 42px;
+    left: 645px;
+    top: 480px;
+    background: #79D3C5;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Animación Button*/
+button:hover{
+    background-color: #1DB9A1;
+}
+
+

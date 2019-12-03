@@ -1,0 +1,343 @@
+body {
+    background-image: url(./img/Arqui.png);
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background: cover;
+    background-size: 1518px 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Rectangle barra verde*/
+button[type=submit]{
+    position: absolute;
+    width: 1235px;
+    height: 98px;
+    left: 225px;
+    top: -1px;
+    background: #1DB9A1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+}
+
+/*Hola, Carlos Arturo Sierra*/
+h3{
+    width: 287px;
+    height: 43px;
+    left: 39px;
+    top: 29px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 43px;
+    /* identical to box height */
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/*iconitos*/
+.button3 {
+    position: absolute;
+    width: 193px;
+    height: 54px;
+    left: 1220px;
+    top: 22px;
+}
+
+/*Fondo azul claro*/
+#fondis{
+    position: absolute;
+    width: 1497px;
+    height: 625px;
+    left: -7px;
+    top: 391px;
+    background: #F0F9FF;
+}
+
+/*Arqui*/
+h1{
+    position: absolute;
+    width: 835px;
+    height: 90px;
+    left: 323px;
+    top: 198px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 98px;
+    color: #FFFFFF;
+}
+h2{
+    position: absolute;
+    width: 402px;
+    height: 41px;
+    left: 323px;
+    top: 290px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 33px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+
+
+/*Titulos y subtitulos*/
+
+/*Descripcion de la tarea*/
+.Titulos [type="D"]{
+    position: absolute;
+    width: 577px;
+    height: 72px;
+    left: 62px;
+    top: 374px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 89px;
+    color: #141414;
+}
+
+/*Revisa la rubrica*/
+.Titulos [type="1"]{
+    position: absolute;
+    width: 139px;
+    height: 28px;
+    left: 62px;
+    top: 467px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    color: #141414;
+}
+
+/*Ver ejemplos (5)*/
+.Titulos [type="V"]{
+    position: absolute;
+    width: 98px;
+    height: 20px;
+    left: 649px;
+    top: 720px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: right;
+    color: #7200D4;
+}
+
+/*Estado de la entrega*/
+.Titulos [type="E"]{
+    position: absolute;
+    width: 294px;
+    height: 46px;
+    left: 62px;
+    top: 731px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    color: #141414;
+}
+
+/*Número de intentos*/
+.Titulos [type="3"]{
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 136px;
+    top: 808px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #141414;
+}
+
+/*Estado de calificación*/
+.Titulos [type="4"]{
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 375px;
+    top: 808px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #141414;
+}
+
+/*Fecha y tiempo restante de la entrega*/
+.Titulos [type="F"]{
+    position: absolute;
+    width: 259px;
+    height: 23px;
+    left: 62px;
+    top: 895px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #141414;
+}
+
+/*Se entrego la tarea*/
+.Titulos [type="5"]{
+    position: absolute;
+    width: 116px;
+    height: 23px;
+    left: 608px;
+    top: 925px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-size: 12.5px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #141414;
+}
+
+/*18 de noviembre del 2019 a las 23:59*/
+.Titulos [type="6"]{
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 380px;
+    top: 949px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 23px;
+    text-align: right;
+    color: #141414;
+}
+
+/*Comentarios*/
+.Titulos [type="C"]{
+    position: absolute;
+    width: 361px;
+    height: 84px;
+    left: 865px;
+    top: 374px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 89px;
+    color: #141414;
+}
+
+/*Escribe tus dudas sobre la tarea*/
+.Titulos [type="2"]{
+    
+    width: 222px;
+    height: 21px;
+    
+    top: 467px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 33px;
+    color: #141414;
+}
+
+
+.container{
+   position: absolute;
+   top: 500px;
+    left: 800px;
+    
+
+}
+object{
+    width: 500px; 
+    height:500px;
+
+}
+
+
+
+/*image*/
+/*rubrica*/
+.image [type=rubrica]{
+    position: absolute;
+    left: 62px;
+    top: 525px;
+}
+
+/*barra*/
+.image [type=barra]{
+    position: absolute;
+    left: 62px;
+    top: 945px;
+}
+
+/*1*/
+.image [type=nn]{
+    position: absolute;
+    left: 176px;
+    top: 855px;
+}
+
+/*43*/
+.image [type=nnn]{
+    position: absolute;
+    left: 409px;
+    top: 855px;
+}
+
+/*circulitos*/
+.image [type=cir]{
+    position: absolute;
+    left: 1329px;
+    top: 945px;
+}
+
+
+/*Comentario recuadro*/
+input[type=Comentario]{
+    position: absolute;
+    width: 540px;
+    height: 44px;
+    left: 868px;
+    top: 929px;
+    background: #EDEDED;
+    box-sizing: border-box;
+    border-radius: 14px;
+    border:none;
+    /* Haz un comentario */
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: left;
+    padding:21px;
+    line-height: 18px;
+    color: #141414;
+}

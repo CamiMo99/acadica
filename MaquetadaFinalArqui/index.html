@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Frame19.css">
+    <link rel="shortcut icon" href="img/log.jpeg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acadica</title>
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var config = {
+          apiKey: "AIzaSyA-SrNLuWPfGV2oxvGqq7xoAEtSQJDpfpI",
+          authDomain: "newbd-fadba.firebaseapp.com",
+          databaseURL: "https://newbd-fadba.firebaseio.com",
+          projectId: "newbd-fadba",
+          storageBucket: "newbd-fadba.appspot.com",
+          messagingSenderId: "275385020471"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(config);
+      </script>
+</head>
+        
+<body>
+    <div class="ContenedorGeneral"></div>
+
+    <!--Rectangle Usuario-->
+    
+        <input  id="email2" type="Usuario" placeholder="Ingresa tu email" name="keyword">
+    
+
+    <!--Rectangle Contraseña-->
+    
+        <input id="contrasena2" type="password" placeholder="Ingresa tu contraseña" name="keyword">
+
+    
+   
+            <button onclick="ingreso()">
+                Iniciar Sesion
+            </button>
+            
+    
+
+    <!--Registrarse
+    <form class="Rectangle3" ></form>
+        <input type="submit" value="Iniciar Sesión">
+        <a href="Frame20.html"></a>
+    </form> -->
+
+    <form class="example" action="modal.html">
+        <button type="registrarse">
+            <h3>Registrarse</h3>
+            <a href="modal.html"></a>
+        </button>
+    </form>
+
+    <!--Olvidar-->
+    <div class="Olvidar"><h4>¿Olvidaste tu contraseña?</h4></div>
+   
+    <!--Icono-->
+    <div class="Icono">
+        <img src="img/Icono.png">
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

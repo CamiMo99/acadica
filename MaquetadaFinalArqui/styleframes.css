@@ -1,0 +1,275 @@
+body {
+    background: #F0F9FF;
+    font-family: catamaran, sans-serif;
+}
+
+.fondito{
+    margin-top: -8px;
+}
+
+    /*BARRA VERDE*/
+    
+    .barraV {
+        position: absolute;
+        width: 1220px;
+        height: 110px;
+        top: -1px;
+        left: 225px;
+        color: #FFFFFF;
+        background: #1DB9A1;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-right: 10px;
+    }
+    
+    .barraV h4 {
+        left: 20px;
+        position: absolute;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 43px;
+        text-align: right;
+    }
+    
+    #bell {
+        position: absolute;
+        left: 960px;
+        top: 40px;
+    }
+    
+    #line {
+        position: absolute;
+        width: 36px;
+        height: 0px;
+        left: 1040px;
+        top: 51px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(90deg);
+    }
+    
+    .button3 {
+        position: absolute;
+        left: 1130px;
+        top: 27px;
+    }
+    
+    
+    #triangle {
+        position: absolute;
+        width: 11px;
+        height: 11px;
+        left: 1195px;
+        top: 51px;
+    }
+
+.titulo{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 50px;
+    color: white;
+    top: 250px;
+    left: 320px;
+
+}
+
+.ubicacion{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 25px;
+    color: white;
+    top: 317px;
+    left: 320px;
+}
+
+.fondo-unidad{
+    position: absolute;
+    left: 40px;
+    top: 400px;
+}
+
+.titulo-unidad{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 39px;
+    font-weight: bolder;
+    color: white;
+    top: 407px;
+    left: 70px;
+}
+
+/* TAREA NUMERO 1 */
+
+.fondo1{
+position: absolute;
+top: 507px;
+left: 75px;
+
+}
+.titulo1-1{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 120px;
+    top:532px;
+ 
+}
+
+.texto1-1{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 11.5px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 120px;
+    top:575px;
+}
+
+.fondo2{
+    position: absolute;
+    top: 507px;
+    left: 478px;  
+}
+
+.fondo3{
+    position: absolute;
+    top: 739px;
+    left: 75px;  
+}
+
+.fondo4{
+    position: absolute;
+    top: 739px;
+    left: 478px;  
+}
+
+/* TAREA NUMERO 5 */
+.fondo5{
+    position: absolute;
+    top: 507px;
+    left: 880px; 
+}
+.titulo5-1{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 920px;
+    top:532px; 
+}
+
+.titulo5-2{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 920px;
+    top:576px; 
+}
+
+/* RECURSO 1 */
+.texto5-1{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 21px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 920px;
+    top:600px;
+}
+
+.link1{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #152B39; 
+    top: 55px; 
+}
+
+/* RECURSO 2 */
+.texto5-2{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 21px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 920px;
+    top:685px;
+}
+
+.link2{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #152B39;
+    top: 55px;
+  
+}
+
+/* RECURSO 3 */
+.texto5-3{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 21px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 920px;
+    top:765px;
+}
+
+.link3{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #152B39;
+    top: 40px;  
+}
+
+/* RECURSO 4 */
+.texto5-4{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 21px;
+    font-weight: bolder;
+    color: #152B39;
+    left: 920px;
+    top:850px;
+}
+
+.link4{
+    position: absolute;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #152B39;
+    top: 40px; 
+}
+
+
+.button1 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 3px solid #7200D4;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1px 15px;
+
+  }
+  
+  .button1:hover {
+    background-color: #7200D4;
+    color: white;
+    font-family: Catamaran;
+    font-size: -2px;
+  }
+

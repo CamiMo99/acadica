@@ -1,0 +1,166 @@
+body {
+    background-image: url(./img/FondoInicio.png);
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background: cover;
+    background-size: 1500px 1000px;
+    background-repeat: no-repeat;
+}
+
+.viejo{
+    position: absolute;
+    width: 493px;
+    height: 349px;
+    left: 530px;
+    top: 240px;
+    background: #F0F9FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+}
+
+/*Contenedor Registrarse*/
+.contenedorModal{
+    position: absolute;
+    width: 482px;
+    height: 490px;
+    left: 535px;
+    top: 170px;    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 14px;
+}
+
+/*hola*/
+h1{
+    position: absolute;
+    width: 87px;
+    height: 49px;
+    left: 190px;
+    top: 20px; 
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 59px;
+    text-align: center;
+    color: #1DB9A1;    
+}
+
+/*Bienvenido a Acadica*/
+h2{
+    position: absolute;
+    width: 172px;
+    height: 27px;
+    left: 158px;
+    top: 75px;    
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;    
+    color: #1DB9A1;
+}
+
+
+/*cajas*/
+    
+
+input[type=Email]{
+    position: absolute;
+    width: 338px;
+    height: 42px;
+    left: 605px;
+    top: 410px;    
+    background: #FCFEFF;
+    border: 1px solid #1DB9A2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    text-align: left;
+    padding:10px;
+}
+
+input[type=password]{
+    position: absolute;
+    width: 338px;
+    height: 42px;
+    left: 605px;
+    top: 500px;    
+    background: #FCFEFF;
+    border: 1px solid #1DB9A2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    text-align: left;
+    padding:10px;
+}
+
+/*button registrarse*/
+button{
+    position: absolute;
+    width: 164px;
+    height: 42px;
+    left: 695px;
+    top: 575px;
+    background: #79D3C5;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Animación Button*/
+button:hover{
+    background-color: #1DB9A1;
+}
+
+h3[type=Usu]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 83px;
+    top: 108px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #152B39;
+}
+
+h3[type=Ema]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 83px;
+    top: 200px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #152B39;
+}
+
+h3[type=Contra]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 83px;
+    top: 292px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #152B39;
+}
+

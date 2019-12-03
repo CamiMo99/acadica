@@ -1,0 +1,141 @@
+body {
+    background-image: url(./img/FondoInicio.png);
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background: cover;
+    background-size: 1500px 1000px;
+    background-repeat: no-repeat;
+}
+
+/*icono*/
+.Icono{
+    position: absolute;
+    width: 123px;
+    height: 124px;
+    left: 710px;
+    top: 175px;
+}
+
+/* Rectangle 1 */
+.ContenedorGeneral{
+    position: absolute;
+    width: 493px;
+    height: 349px;
+    left: 530px;
+    top: 240px;
+    background: #F0F9FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+}
+
+/*Rectangle Usuario */
+input[type=Usuario]{
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 610px;
+    top: 324px;
+    background: #F0F9FF;
+    border: 1px solid #1DB9A2;
+    box-sizing: border-box; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+    padding:10px;
+    color: #152B39;
+}
+
+/*Rectangle Contraseña*/
+input[type=password]{
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 610px;
+    top: 400px;
+    background: #F0F9FF;
+    border: 1px solid #79D3C5;
+    box-sizing: border-box; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+    padding:10px;
+    color: #152B39;
+}
+
+/*button iniciar sesión*/
+button {
+    position: absolute;
+    width: 164px;
+    height: 42px;
+    left: 580px;
+    top: 475px;
+    background: #79D3C5;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Animación Button*/
+button:hover {
+    background-color: #1DB9A1;
+}
+
+/*button registrarse*/
+button[type=registrarse]{
+    position: absolute;
+    width: 164px;
+    height: 42px;
+    left: 793px;
+    top: 475px;
+    background: #79D3C5;
+    border-radius: 4px;
+    border:none;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Animación Button*/
+button[type=registrarse]:hover{
+    background-color: #1DB9A1;
+}
+
+
+
+/* Olvidaste tu contraseña? */
+.Olvidar{
+    position: absolute;
+    width: 145px;
+    height: 16px;
+    left: 702px;
+    top: 520px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 21px;
+    color: #152B39;
+}

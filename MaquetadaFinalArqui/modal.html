@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="modal.css">
+    <link rel="shortcut icon" href="img/log.jpeg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrarse</title>
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var config = {
+          apiKey: "AIzaSyA-SrNLuWPfGV2oxvGqq7xoAEtSQJDpfpI",
+          authDomain: "newbd-fadba.firebaseapp.com",
+          databaseURL: "https://newbd-fadba.firebaseio.com",
+          projectId: "newbd-fadba",
+          storageBucket: "newbd-fadba.appspot.com",
+          messagingSenderId: "275385020471"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(config);
+      </script>
+</head>
+<body>
+    <div class="viejo"></div>
+
+    <div class="contenedorModal">
+        <h1>¡Hola!</h1>
+        <h2>Registrate en Acadica</h2>    
+           
+        <h3 type="Ema">Email</h3>    
+        <h3 type="Contra">Contraseña</h3>    
+    </div>
+   
+   
+
+    <!--Rectangle Email-->
+        
+           <input id="email" type="email" placeholder="" name="keyword">
+        
+
+    <!--Rectangle Contraseña-->
+        
+            <input id="contrasena" type="password" placeholder="" name="keyword">
+                      
+        
+     <!--Registrarse-->
+        
+            <button onclick="registrar()">
+                <h3>Registrarse</h3>
+            </button>
+        
+
+        <script src="app.js"></script>
+</body>
+</html>
