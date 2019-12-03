@@ -15,7 +15,7 @@ Comentarios
 
 # App
 
-## MoodleMobile --> Diseño web
+## MoodleMobile --> App
 
 ```
 Aplicativo movil ACADICA
