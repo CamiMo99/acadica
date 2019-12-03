@@ -1,6 +1,6 @@
 # acadica
 
-##MaquetadaFinalArqui --> Diseño web
+## MaquetadaFinalArqui --> Diseño web
 
 ```
 Funcionalidad de 
@@ -12,3 +12,11 @@ Comentarios
 
 ### - Si la persona no esta registrada no puede acceder a la pagina
 ### - Si la persona no esta logueada no podra visualizar nada de las otras ventanas
+
+# App
+
+## MoodleMobile --> Diseño web
+
+```
+Aplicativo movil ACADICA
+```
